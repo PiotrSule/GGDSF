@@ -1,0 +1,30 @@
+Package: ggdsf
+Type: Package
+Title: Generalized Gamma Distribution with Shape Function
+Version: 0.2.0
+Authors@R: person(
+    given = "Piotr",
+    family = "Sulewski",
+    role = c("aut", "cre"),
+    email = "piotr.sulewski@upsl.edu.pl"
+  )
+Description: Implements probability density, cumulative distribution, survival,
+    hazard rate, reversed hazard rate, quantile, random generation, similarity
+    measure, and information entropy functions (Shannon, Renyi, and Tsallis)
+    for the four-parameter Generalized Gamma Distribution with Shape Function
+    (GGDSF), along with reproducible scripts for maximum likelihood estimation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.1.0)
+Imports:
+    stats
+Suggests:
+    numDeriv,
+    goftest,
+    ggplot2,
+    patchwork,
+    survival,
+    MASS
+Config/roxygen2/version: 8.1.1
